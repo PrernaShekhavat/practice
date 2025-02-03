@@ -4,7 +4,7 @@ from schemas import GenreURLChoices, Band
 app = FastAPI()
 
 BANDS = [
-    {'id':1,'name':'The Kinks','genre':'Rock'},
+    {'id':1,'name':'The Kinks','genre':'Rocks'},
     {'id':2,'name':'Aphex Twin','genre':'Electronic'},
     {'id':3,'name':'Slowdive','genre':'Shoegaze', 'albums':[
         {'title':'Master of reality','release_date':'1971-07-21'}
